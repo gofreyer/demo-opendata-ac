@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <title>Opendata Aachen</title>
+    <style>
+      .nav {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+      }
+      .header {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="title">Aktuelle Corona-Informationen</h1>
+        <div>
+          des
+          <a
+            href="https://offenedaten.aachen.de/dataset/aktuelle-lage-zum-corona-virus"
+            >Open Data Portals</a
+          >
+          der StädteRegion Aachen
+        </div>
+      </div>
+      <div class="nav">
+        <button id="req_sr">Städteregion</button>
+        <button id="req_ac">Aachen</button>
+        <button id="req_al">Alsdorf</button>
+        <button id="req_ba">Baesweiler</button>
+        <button id="req_es">Eschweiler</button>
+        <button id="req_he">Herzogenrath</button>
+        <button id="req_mo">Monschau</button>
+        <button id="req_ro">Roetgen</button>
+        <button id="req_si">Simmerath</button>
+        <button id="req_st">Stolberg</button>
+        <button id="req_wu">Würselen</button>
+      </div>
+      <table class="table is-striped is-fullwidth" id="tabelle"></table>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
