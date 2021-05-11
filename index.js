@@ -161,6 +161,9 @@ function addTableRow(parentNode, refNode, tableColumns) {
   for (let col = 0; col < tableColumns.length; col++) {
     let tabCell = document.createElement('td');
     tabCell.innerText = tableColumns[col];
+    if (col === tableColumns.length - 1) {
+      tabCell.classList.add('berechnet');
+    }
     tabRow.appendChild(tabCell);
   }
 
