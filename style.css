@@ -1,0 +1,123 @@
+body.waiting * {
+  cursor: progress;
+}
+
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  /*margin-top: 20px;
+  margin-bottom: 20px;
+  */
+}
+.header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.banner {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.berechnet {
+  color: red;
+}
+
+.row-selected {
+  border-style: solid;
+  border-color: #006c55;
+  font-weight: 500;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 95%;
+  max-width: 1600px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.intro {
+  background: #10a5ca;
+  color: #eee8a9;
+  padding: 20px 0;
+  border-radius: 2em;
+}
+
+button {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 1em 1em;
+  background-color: #006c55;
+  color: #eee8a9;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid;
+  border-radius: 2em;
+  /*
+  margin-top: 12px;
+  margin-bottom: 12px;
+  */
+  transition: color 0.3s, border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+button:hover {
+  box-shadow: 0 0.5em 0.5em -0.3em black;
+  transform: translateY(-0.25em);
+  color: white;
+  border-color: white;
+}
+
+a {
+  color: #006c55;
+  text-decoration: none;
+  transition: text-decoration 0.5s;
+}
+
+a:hover {
+  text-decoration: underline wavy #eee8a9;
+}
+
+#rki_tabelle {
+  background-color: #eee8a9;
+  border-style: solid;
+  border-color: #006c55;
+  margin-top: 20px;
+}
+
+#tabelle {
+  background-color: rgb(250, 250, 250);
+  border-style: solid;
+  border-color: rgb(240, 240, 240);
+}
+
+#logo {
+  margin-right: 50px;
+}
+
+#address {
+  margin-top: 10px;
+}
+
+.auswahl {
+  margin-bottom: 20px;
+}
