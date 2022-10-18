@@ -47,7 +47,7 @@ body.waiting * {
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
 }
 
 .container {
@@ -71,7 +71,7 @@ button {
   padding: 1em 1em;
   background-color: #006c55;
   color: #eee8a9;
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
   border: 1px solid;
   border-radius: 2em;
   /*
